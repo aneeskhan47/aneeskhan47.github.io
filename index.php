@@ -60,7 +60,7 @@
                         <div class="title-heading">
                             <div class="selector uppercase" id="selector">
                                 <h3 class="ah-headline p-none m-none">
-                                    <span class="font-weight-400">Hi There ! I'm</span>
+                                    <span class="font-weight-400">As Salam Alaikum ! I'm</span>
 									<span class="my-name">Anees Ur Rahman</span>
                                     <span class="ah-words-wrapper">
 										<b class="is-visible">A Web Developer</b>
