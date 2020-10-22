@@ -33,6 +33,13 @@
     <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
+    <style>
+        span.my-name {
+
+    font-size: 2rem;
+    line-height: 2rem;
+        }
+    </style>
 
     <!-- Template JS Files -->
     <script src="js/modernizr.custom.js"></script>
@@ -61,7 +68,7 @@
                             <div class="selector uppercase" id="selector">
                                 <h3 class="ah-headline p-none m-none">
                                     <span class="font-weight-400">As Salam Alaikum ! I'm</span>
-									<span class="my-name">Anees Ur Rahman</span>
+									<span style="font-size: 2rem;" class="my-name">Anees Ur Rahman</span>
                                     <span class="ah-words-wrapper">
 										<b class="is-visible">A Web Developer</b>
 										<b>A Web Designer</b>
