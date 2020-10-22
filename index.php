@@ -267,21 +267,21 @@
                                                         <div class="col s6">
 															<!-- Single Skills Starts -->
                                                             <div class="resume-content">
-																<h6 class="uppercase">html</h6>
+																<h6 class="uppercase">html, css</h6>
 																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></p>
                                                             </div>
 															<!-- Single Skills Ends -->
 															<!-- Single Skills Starts -->
                                                             <div class="resume-content">
-																<h6 class="uppercase">javascript</h6>
-																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i> <i class="fa fa-star-o"></i> </p>
+																<h6 class="uppercase">javascript, jquery</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i> </p>
                                                             </div>
 															<!-- Single Skills Ends -->
 															<!-- Single Skills Starts -->
-                                                            <div class="resume-content">
+                                                            <!-- <div class="resume-content">
 																<h6 class="uppercase">css</h6>
 																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i></p>
-                                                            </div>
+                                                            </div> -->
 															<!-- Single Skills Ends -->
 															<!-- Single Skills Starts -->
                                                             <div class="resume-content">
@@ -291,7 +291,7 @@
 															<!-- Single Skills Ends -->
 															<!-- Single Skills Starts -->
                                                             <div class="resume-content">
-																<h6 class="uppercase">jquery</h6>
+																<h6 class="uppercase">Git, Github</h6>
 																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i></p>
                                                             </div>
 															<!-- Single Skills Ends -->
@@ -314,13 +314,13 @@
 															<!-- Single Skills Starts -->
                                                             <!-- Single Skills Starts -->
                                                             <div class="resume-content">
-                                                                <h6 class="uppercase">laravel</h6>
+                                                                <h6 class="uppercase">laravel, codeigniter</h6>
                                                                 <p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-o"></i></p>
                                                             </div>
                                                             <!-- Single Skills Ends -->
                                                             <div class="resume-content">
-																<h6 class="uppercase">codeigniter</h6>
-																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i></p>
+																<h6 class="uppercase">MYSQL, POSTGRES SQL</h6>
+																<p><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star-half-empty"></i> <i class="fa fa-star-o"></i></p>
                                                             </div>
 															<!-- Single Skills Ends -->
 															<!-- Single Skills Starts -->
