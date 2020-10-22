@@ -39,6 +39,10 @@
     font-size: 2rem;
     line-height: 2rem;
         }
+
+        .resume-card-blur {
+    filter: blur(5px);
+}
     </style>
 
     <!-- Template JS Files -->
@@ -119,30 +123,29 @@
                             <div class="col s12 m8 l12 xl12 personal-info section-padding">
                                 <h6 class="uppercase"><i class="fa fa-user"></i> Personal Info</h6>
 								<div class="col m12 l12 xl9 p-none">
-									<p class="second-font">I'm a Web Designer & Developer based in Riyadh, Saudi Arabia.
-									I have serious passion for building perfect Web Applications.
+									<p class="second-font">A person with an unmatched passion for Web Designing & Development. Currently juggling with PHP, Javascript, HTML, CSS, SQL.
 									</p>
 								</div>
                                 <div class="col s12 m12 l6 p-none">
                                     <ul class="second-font list-1">
-                                        <li><span class="font-weight-700">First Name: </span>Anees</li>
-                                        <li><span class="font-weight-700">Last Name: </span>Khan</li>
-                                        <li><span class="font-weight-700">Date of birth: </span>27 April 2001 </li>
-                                        <li><span class="font-weight-700">Age: </span><?php echo date_diff(date_create('2001-04-27'), date_create('today'))->y . " years old"; ?> </li>
-                                        <li><span class="font-weight-700">Nationality: </span>Pakistani</li>
+                                        <li><span class="font-weight-700"></span>Anees Khan</li>
+                                        <li><span class="font-weight-700"></span>+966581103259</li>
+                                        <!-- <li><span class="font-weight-700"></span>27 April 2001 </li> -->
+                                        <!-- <li><span class="font-weight-700"></span>Pakistani</li> -->
+                                        <li><span class="font-weight-700"></span>Riyadh, Saudi Arabia</li>
+                                        <li><span class="font-weight-700"></span>anees.coder2001@gmail.com</li>
+                                        <li><span class="font-weight-700"></span>English - Arabic - Urdu</li>
                                     </ul>
-                                </div>
-                                <div class="col s12 m12 l6 p-none">
-                                    <ul class="second-font list-2">
-                                        <li><span class="font-weight-700">Phone: </span>+966581103259</li>
-                                        <li><span class="font-weight-700">Address: </span>Riyadh, Saudi Arabia</li>
-                                        <li><span class="font-weight-700">Email: </span>anees.coder2001@gmail.com</li>
-                                        <li><span class="font-weight-700">Spoken Langages: </span>English - Arabic - Urdu</li>
-                                    </ul>
-                                </div>
-                                <a href="images/anees-rahman-cv.pdf" target="_blank" class="btn font-weight-700">
+                                    <a href="images/anees-rahman-cv.pdf" target="_blank" class="btn font-weight-700">
 									Download Resume <i class="fa fa-file-pdf-o"></i>
 								</a>
+                                </div>
+                                <!-- <div class="col s12 m12 l6 p-none"> -->
+                                    <!-- <ul class="second-font list-2"> -->
+                                       
+                                    <!-- </ul> -->
+                                <!-- </div> -->
+                                
 								<!-- <a href="blog-dark.html" class="btn btn-blog font-weight-700">
 									My Blog <i class="fa fa-edit"></i>
 								</a> -->
@@ -156,7 +159,7 @@
                             <div class="valign-wrapper row">
 								<!-- Resume Menu Starts -->
                                 <div class="resume-list col l4 section-padding">
-                                    <div class="resume-list-item is-active" data-index="0" id="resume-list-item-0">
+                                    <div class="resume-list-item  is-active" data-index="0" id="resume-list-item-0">
                                         <div class="resume-list-item-inner">
                                             <h6 class="resume-list-item-title uppercase"><i class="fa fa-briefcase"></i> Experience</h6>
                                         </div>
@@ -215,7 +218,7 @@
                                         </div>
 										<!-- Experience Ends -->
 										<!-- Education Starts -->
-                                        <div class="resume-card resume-card-1" data-index="1">
+                                        <div class="resume-card resume-card-blur resume-card-1" data-index="1">
 											<!-- Education Header Title Starts -->
                                             <div class="resume-card-header">
                                                 <div class="resume-card-name"><i class="fa fa-graduation-cap"></i> Education</div>
@@ -225,7 +228,7 @@
                                                 <div class="resume-card-body-container second-font">
 													<!-- Single Education Starts -->
                                                     <div class="resume-content">
-														<h6 class="uppercase"><span>Metric - </span>Pakistan Internation School</h6>
+														<h6 class="uppercase"><span>Metric - </span>Pakistan Internation School Buraydah</h6>
 														<span class="date"><i class="fa fa-calendar-o"></i> 2008 - 2017</span>
 														<!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus pretium orci sit amet mi ullamcorper</p> -->
                                                     </div>
@@ -251,7 +254,7 @@
                                         </div>
 										<!-- Education Ends -->
 										<!-- Skills Starts -->
-                                        <div class="resume-card resume-card-2" data-index="2">
+                                        <div class="resume-card resume-card-blur resume-card-2" data-index="2">
 											<!-- Skills Header Title Starts -->
                                             <div class="resume-card-header">
                                                 <div class="resume-card-name"><i class="fa fa-star"></i> Skills</div>
@@ -370,7 +373,7 @@
                                     <i class="fa fa-handshake-o"></i>
 									<span class="font-weight-900">89+</span>
                                 </h3>
-                                <h6 class="uppercase font-weight-700">Done Projects</h6>
+                                <h6 class="uppercase font-weight-700">Projects</h6>
                             </div>
                             <!-- Fact Badge Item Ends -->
                             <!-- Fact Badge Item Starts -->
@@ -425,7 +428,7 @@
                             <div class="col s12 m6 l6 xl4" data-panel="panel-1">
                                 <a href="#">
 									<img class="responsive-img" src="images/projects/project-1.jpg" alt="Project" />
-									<div class="valign-wrapper"><span class="font-weight-700 uppercase">Web Application</span></div>
+									<div class="valign-wrapper"><span class="font-weight-700 uppercase">QURAN SEARCH ENGINE</span></div>
 								</a>
                             </div>
                             <!-- Project Ends -->
@@ -433,7 +436,7 @@
                             <div class="col s12 m6 l6 xl4" data-panel="panel-2">
                                 <a href="#">
 									<img class="responsive-img" src="images/projects/project-2.jpg" alt="Project" />
-									<div class="valign-wrapper"><span class="font-weight-700 uppercase">Custom Wordpress Website</span></div>
+									<div class="valign-wrapper"><span class="font-weight-700 uppercase">HADITH IHYAS</span></div>
 								</a>
                             </div>
                             <!-- Project Ends -->
@@ -441,7 +444,7 @@
                             <div class="col s12 m6 l6 xl4" data-panel="panel-3">
                                 <a href="#">
 									<img class="responsive-img" src="images/projects/project-3.jpg" alt="Project" />
-									<div class="valign-wrapper"><span class="font-weight-700 uppercase">Custom Wordpress Website</span></div>
+									<div class="valign-wrapper"><span class="font-weight-700 uppercase">PAIGHAM TV PASHTO</span></div>
 								</a>
                             </div>
                             <!-- Project Ends -->
@@ -449,7 +452,7 @@
                             <div class="col s12 m6 l6 xl4" data-panel="panel-4">
                                 <a href="#">
 									<img class="responsive-img" src="images/projects/project-4.jpg" alt="Project" />
-									<div class="valign-wrapper"><span class="font-weight-700 uppercase">Custom Wordpress Website</span></div>
+									<div class="valign-wrapper"><span class="font-weight-700 uppercase">RAHEJANNATH</span></div>
 								</a>
                             </div>
                             <!-- Project Ends -->
@@ -457,7 +460,7 @@
                             <div class="col s12 m6 l6 xl4" data-panel="panel-5">
                                 <a href="#">
 									<img class="responsive-img" src="images/projects/project-5.jpg" alt="Project" />
-									<div class="valign-wrapper"><span class="font-weight-700 uppercase">Web Application</span></div>
+									<div class="valign-wrapper"><span class="font-weight-700 uppercase">SCHOOLITSYSTEM</span></div>
 								</a>
                             </div>
                             <!-- Project Ends -->
@@ -465,7 +468,7 @@
                             <div class="col s12 m6 l6 xl4" data-panel="panel-6">
                                 <a href="#">
 									<img class="responsive-img" src="images/projects/project-6.jpg" alt="Project" />
-									<div class="valign-wrapper"><span class="font-weight-700 uppercase">Web Application</span></div>
+									<div class="valign-wrapper"><span class="font-weight-700 uppercase">LARKHUD</span></div>
 								</a>
                             </div>
                             <!-- Project Ends -->
@@ -598,7 +601,7 @@
                                 <!-- <li><i class="fa fa-user"></i><span class="font-weight-700"> Client </span>: <span class="font-weight-400 uppercase">Envato</span></li> -->
                                 <li><i class="fa fa-calendar-o"></i><span class="font-weight-700"> Start Date </span>: <span class="font-weight-400 uppercase">02/11/2018</span></li>
 								<li><i class="fa fa-calendar-check-o"></i><span class="font-weight-700"> End Date </span>: <span class="font-weight-400 uppercase">12/12/2019</span></li>
-                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, codeigniter, html, css, javascript, jquery</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, codeigniter (Backend) <br> html, css, javascript, jquery (Frontend)</span></li>
                             </ul>
                             <hr>
                             <a href="https://quran.ihyas.com/" target="_blank" class="waves-effect waves-light btn font-weight-700">Preview <i class="fa fa-external-link"></i></a>
@@ -622,7 +625,7 @@
                                 <li><i class="fa fa-user"></i><span class="font-weight-700"> Client </span>: <span class="font-weight-400 uppercase">Hadith Ihyas</span></li>
                                 <li><i class="fa fa-calendar-o"></i><span class="font-weight-700"> Start Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
 								<li><i class="fa fa-calendar-check-o"></i><span class="font-weight-700"> End Date </span>: <span class="font-weight-400 uppercase">02/08/2018</span></li>
-                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, wordpress, html, css, javascript</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php (Backend) <br> html, css, javascript, jquery (frontend)</span></li>
                             </ul>
                             <hr>
                             <a href="http://hadith.ihyas.com/" target="_blank" class="waves-effect waves-light btn font-weight-700">Preview <i class="fa fa-external-link"></i></a>
@@ -647,7 +650,7 @@
                                 <li><i class="fa fa-user"></i><span class="font-weight-700"> Client </span>: <span class="font-weight-400 uppercase">Paigham TV Pashto</span></li>
                                 <li><i class="fa fa-calendar-o"></i><span class="font-weight-700"> Start Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
 								<li><i class="fa fa-calendar-check-o"></i><span class="font-weight-700"> End Date </span>: <span class="font-weight-400 uppercase">12/08/2018</span></li>
-                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, wordpress, html, css, javascript</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php (Backend) <br> html, css, javascript, jquery (frontend)</span></li>
                             </ul>
                             <hr>
                             <a href="http://www.paigham.tv/pashto/" target="_blank" class="waves-effect waves-light btn font-weight-700">Preview <i class="fa fa-external-link"></i></a>
@@ -672,7 +675,7 @@
                                 <li><i class="fa fa-user"></i><span class="font-weight-700"> Client </span>: <span class="font-weight-400 uppercase">RaheJannath</span></li>
                                 <li><i class="fa fa-calendar-o"></i><span class="font-weight-700"> Start Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
 								<li><i class="fa fa-calendar-check-o"></i><span class="font-weight-700"> End Date </span>: <span class="font-weight-400 uppercase">02/08/2018</span></li>
-                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, codeigniter, html, css, javascript, jquery</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, codeigniter (Backend) <br> html, css, javascript, jquery (FrontEnd)</span></li>
                             </ul>
                             <hr>
                             <a href="https://rahejannath.com" target="_blank" class="waves-effect waves-light btn font-weight-700">Preview <i class="fa fa-external-link"></i></a>
@@ -697,7 +700,7 @@
                                 <li><i class="fa fa-user"></i><span class="font-weight-700"> Client </span>: <span class="font-weight-400 uppercase">Schoolit System</span></li>
                                 <li><i class="fa fa-calendar-o"></i><span class="font-weight-700"> Start Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
 								<li><i class="fa fa-calendar-check-o"></i><span class="font-weight-700"> End Date </span>: <span class="font-weight-400 uppercase">02/08/2018</span></li>
-                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, codeigniter, html, css, javascript, jquery</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, codeigniter (Backend) <br> html, css, javascript, jquery (FrontEnd)</span></li>
                             </ul>
                             <hr>
                             <a href="https://schoolitsystem.com" target="_blank" class="waves-effect waves-light btn font-weight-700">Preview <i class="fa fa-external-link"></i></a>
@@ -721,7 +724,7 @@
                                 <li><i class="fa fa-user"></i><span class="font-weight-700"> Client </span>: <span class="font-weight-400 uppercase">Larkhud</span></li>
                                 <li><i class="fa fa-calendar-o"></i><span class="font-weight-700"> Start Date </span>: <span class="font-weight-400 uppercase">02/11/2018</span></li>
 								<li><i class="fa fa-calendar-check-o"></i><span class="font-weight-700"> End Date </span>: <span class="font-weight-400 uppercase">02/08/2019</span></li>
-                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, wordpress, laravel, html, css, javascript, jquery</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">php, laravel (Backend) <br> html, css, javascript, jquery (Frontend)</span></li>
                             </ul>
                             <hr>
                             <a href="https://larkhud.com" target="_blank" class="waves-effect waves-light btn font-weight-700">Preview <i class="fa fa-external-link"></i></a>

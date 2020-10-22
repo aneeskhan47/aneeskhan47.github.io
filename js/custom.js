@@ -68,7 +68,7 @@
 				var t = e + 1,
 					n = e - 1,
 					i = e - 2;
-				$(".resume-card").removeClass("front back up-front up-up-front back-back"), $(".resume-card-" + e).addClass("front"), $(".resume-card-" + t).addClass("back"), $(".resume-card-" + n).addClass("back-back"), $(".resume-card-" + i).addClass("back")
+				$(".resume-card").removeClass("front back resume-card-blur up-front up-up-front back-back"), $(".resume-card-" + e).addClass("front"), $(".resume-card-" + t).addClass("back resume-card-blur"), $(".resume-card-" + n).addClass("back-back resume-card-blur"), $(".resume-card-" + i).addClass("back resume-card-blur")
 			});
 		}
 		
